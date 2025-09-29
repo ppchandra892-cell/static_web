@@ -1,49 +1,75 @@
 <html>
     <head>
-        <!--  head has only 5 tags title,meta,style,link,script -->
-        <title>First Webiste</title>
+        <link rel="stylesheet" href=./boostrap.css>
     </head>
     <body>
-       <img src="./logo.png"/>
-       <a href="./index.html">Home</a>
-       <a href="./about.html">About</a>
-       <a href="./services.html">Services</a>
-       <a href="./employees.html">Employees</a>
-       <a href="./contact.html">Contact</a>
-       <a href="./login.html">Login</a>
-    <hr>
-    <div>
-        <h4>employees.html</h4>
-    </div>
-      <div>
-        <table border="3">
-            <thead>
-                <th>emp id</th>
-                <th>name</th>
-                <th>salary</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>101</td>
-                    <td>john</td>
-                    <td>1000</td>
-                </tr>
-                <tr>
-                    <td>102</td>
-                    <td>smith</td>
-                    <td rowspan="2">2000</td>
-                </tr>
-                <tr>
-                    <td>103</td>
-                    <td>james</td>
+        <nav class="navbar navbar-dark bg-dark">
+            <a href="./index.html">logo</a>     
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                     <table class="table table-hover table-striped table-bordered">
+                        <thead>
+                        <th>Employee Id:</th>
+                        <th>Name</th>
+                        <th>Salary</th>
+                        </thead>
+                            <tbody>
+                            <tr>
+                                <td>101</td>
+                                <td>Rahul</td>
+                                <td>45000</td>
+                            </tr>
+                            <tr>
+                                <td>102</td>
+                                <td>Sonia</td>
+                                <td>55000</td>
+                            </tr>
+                            <tr>
+                                <td>103</td>
+                                <td>Priyanka</td>
+                                <td>55000</td>
+                            </tr>
+                            </tbody>
+                    </table>
                     
-                </tr>
-                <tr>
-                    <td>104</td>
-                    <td colspan="2">modi</td>
-                    
-                </tr>
-        </table>
-      </div>
-    </body>
+                </div>
+            </div>
+        </div>
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-6">
+                         <table class="table table-hover table-striped table-bordered">
+                            <thead>
+                                <th>emp_name</th>
+                                <th>emp_city</th>
+                                <th>emp_age</th>
+                                <th>emp_salary</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>rahul</td>
+                                    <td>delhi</td>
+                                    <td>32</td> 
+                                    <td>45000</td>  
+                                </tr>
+                                <tr>
+                                    <td>sonia</td>
+                                    <td>mumbai</td>
+                                    <td>31</td> 
+                                    <td>55000</td>
+                                </tr>
+                            </tbody>
+                         </table>
+                        </div>
+                    </div>
+                </div>
+            
+    
+       
+    </body>
 </html>
+
+            
+      
