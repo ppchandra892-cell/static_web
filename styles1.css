@@ -1,0 +1,9 @@
+a{
+    background-color: turquoise;
+}
+a[target]{
+    background-color: orange;
+}
+*{
+    font-family: cursive;
+}
